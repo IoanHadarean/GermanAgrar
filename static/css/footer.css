@@ -1,0 +1,71 @@
+/* ------ Special margins and styling -------- */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* ----------------------------- Footer---------------------*/
+  
+ .footer {
+    position: absolute;
+    top: 600vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 111px;
+    background: #EBF2EC;
+}
+
+
+.footer__terms {
+    top: 35px;
+    left: 27.19vw;
+    height: 14px;
+    font-family: Calibre;
+    font-size: 17px;
+    position: absolute;
+
+    color: #006F3C;
+}
+
+.footer__copyright {
+    top: 64px;
+    width: 79vw;
+    left: 10vw;
+    right: 11vw;
+    position: absolute;
+    font-family: Calibre;
+    height: 14px;
+    font-size: 15px;
+
+
+    color: #97ABA2;
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    .footer {
+        height: 50px;
+        top: none;
+    }
+
+    .footer__terms {
+        top: 0;
+        right: 1.6vw;
+        width: 8.8vw;
+        left: 89.58vw;
+        position: absolute;
+        padding-top: 20px;
+    }
+
+    .footer__copyright {
+        top: 0;
+        left: 1.94vw;
+        position: absolute;
+        padding-top: 20px;
+    }
+    
+}
+  
