@@ -254,7 +254,7 @@ html, body {
 
 /* ---------------------------------Media queries -------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .investments__box, .range__header, .services__darken, .services__image {
     width: 100%;
   }
@@ -390,11 +390,26 @@ html, body {
   .services__box {
     display: none;
   }
+}
 
-  .investments__information, .investments__field, .investments__image{
-    height: 1000px;
+@media (min-width: 768px) and (max-width: 840px) {
+  .investments__information, .investments__field, .investments__image {
+    height: 1100px;
   }
 
+  .investments__box {
+    top: 1790px;
+  }
+
+  .services__activities {
+    top: -10px;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1340px) {
+  .investments__information, .investments__field, .investments__image {
+    height: 1000px;
+  }
 }
 
 @media (min-width: 1340px) and (max-width: 2560px) {
