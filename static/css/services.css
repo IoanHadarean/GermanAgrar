@@ -84,7 +84,7 @@ html, body {
 
   .activities__explore {
     height: 20px;
-    left: 15.6vw;
+    width: 100%;
     top: 401px;
     font-family: Calibre;
     line-height: 20px;
@@ -111,7 +111,9 @@ html, body {
   }
 
   .box__arrow {
-    display: flex;
+    position: absolute;
+    top: 17px;
+    right: 13px;
   }
 
   /* ---------------- Investments ---------------- */
@@ -288,15 +290,15 @@ html, body {
     top: 722px;
   }
 
-  .investments__information, .investments__field, .investments__image {
-    height: 880px;
-  }
-
   .investments__image {
     top: -3px;
     position: absolute;
     width: 50vw;
     float: right;
+  }
+
+  .investments__information, .investments__field, .investments__image{
+    height: 880px;
   }
 }
 
@@ -305,9 +307,11 @@ html, body {
     display: none;
   }
 
-  .investments__information, .investments__field, .investments__image {
-    height: 1124px;
+  .investments__information, .investments__field, .investments__image{
+    height: 1000px;
   }
+
+
 }
 
 @media (min-width: 1440px) and (max-width: 1920px) {
