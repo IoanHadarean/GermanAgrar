@@ -34,6 +34,7 @@
     left: 10.62%;
     right: 12.19%;
     line-height: 50px;
+    top: 10px;
     position: absolute;
     z-index: 1;
 }  
