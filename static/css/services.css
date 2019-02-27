@@ -377,12 +377,31 @@ html, body {
     right: 50vw;
     position: absolute;
     transform: rotate(90deg);
+    z-index: 1;
   }
 
   .investments__arrow {
     position: absolute;
     top: 22px;
     right: 18px;
+  }
+
+  .businesses__field {
+    top: 1720px;
+    width: 50vw;
+    right: 50%;
+    height: 690px;
+  }
+
+  .businesses__image {
+    height: 690px;
+  }
+
+  .businesses__information {
+    top: 1720px;
+    width: 50vw;
+    left: 50%;
+    height: 690px;
   }
 }
 

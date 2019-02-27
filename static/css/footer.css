@@ -23,9 +23,13 @@ html, body {
 .footer__terms {
     top: 35px;
     left: 27.19vw;
+    right: 27.19vw;
     height: 14px;
     font-family: Calibre;
     font-size: 17px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     position: absolute;
 
     color: #006F3C;
@@ -34,6 +38,9 @@ html, body {
 .footer__copyright {
     top: 64px;
     width: 79vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     left: 10vw;
     right: 11vw;
     position: absolute;
