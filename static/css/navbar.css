@@ -107,7 +107,7 @@ html, body {
     margin-right: 2.84%;
 }
 
-.box__offers {
+.nav__offers {
     display: flex;
     align-items: center;
     width: 50px;
@@ -123,7 +123,7 @@ html, body {
     color: #FFFFFF;
 }
 
-.box__arrow {
+.nav__arrow {
     position: absolute;
     line-height: 65px;
     top: 28px;
@@ -190,7 +190,7 @@ html, body {
     }
 }
 
-@media (min-width: 1020px) and (max-width: 1920px) {
+@media (min-width: 1020px) and (max-width: 2560px) {
     .nav__items {
         height: 11px;
         width: 100%;
@@ -207,7 +207,7 @@ html, body {
     }
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
+@media (min-width: 1440px) and (max-width: 2560px) {
     .nav__toggle {
         display: none;
     }
@@ -230,7 +230,7 @@ html, body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1920px) {
+@media (min-width: 768px) and (max-width: 2560px) {
     .header__nav {
         text-align: center;
     }

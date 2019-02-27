@@ -7,7 +7,7 @@ html, body {
 }
 
 
-/* ------- Service Range---------- */
+/* ------- Services---------- */
   .services__information {
       width: 100vw;
       position: absolute;
@@ -72,7 +72,7 @@ html, body {
     color: #006F3C;
   }
 
-  .activities__paragraph {
+  .services__description {
     position: absolute;
     width: 93.13vw;
     height: 335px;
@@ -82,7 +82,7 @@ html, body {
     color: #2F302E;
   }
 
-  .activities__explore {
+  .services__explore {
     height: 20px;
     width: 100%;
     top: 401px;
@@ -97,7 +97,7 @@ html, body {
     position: absolute;
   }
 
-  .activities__box {
+  .services__box {
     background: #006F3C;
     display: flex;
     align-items: center;
@@ -110,7 +110,7 @@ html, body {
     top: 401px;
   }
 
-  .box__arrow {
+  .services__arrow {
     position: absolute;
     top: 17px;
     right: 13px;
@@ -190,15 +190,61 @@ html, body {
     color: #FFFFFF;
   }
 
+  /*-------------------------------Businesses------------------------*/
+/* 
+  .businesses__logo {
+    top: 53px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .businesses__information {
+    background: #00A84F;
+    height: 693px;
+    top: 418vh;
+    position: absolute;
+    right: 4.38vw;
+  } */
+
+  .businesses__field {
+    width: 100%;
+    height: 324px;
+    position: absolute;
+    top: 2380px;
+  }  
+
+  /* .businesses__header {
+    height: 200px;
+    left: 8.12vw;
+    top: 136px;
+    position: absolute;
+    right: 7.81vw;
+    font-family: Calibre;
+    line-height: 40px;
+    font-size: 40px;
+
+    color: #FFFFFF;
+  }
+
+  .businesses__paragraph {
+    top: 406px;
+    position: relative;
+    left: 8.12vw;
+    right: 0;
+  } */ 
+
 /* ---------------------------------Media queries -------------------------*/
 
 @media screen and (max-width: 768px) {
-  .range__header, .services__darken, .services__image{
+  .range__header, .services__darken, .services__image {
     width: 100%;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1920px) {
+@media (min-width: 768px) and (max-width: 2560px) {
   .services__range, .services__information {
     top: 65px;
   }
@@ -224,18 +270,24 @@ html, body {
     left: 0;
   }
 
-  .activities__explore {
+  .services__explore {
     display: none;
   }
 
-  .activities__box {
+  .services__box {
     left: 8.82vw;
     top: 467px;
     width: 53px;
     height: 53px;
   }
 
-  .activities__paragraph {
+  .services__arrow {
+    position: absolute;
+    top: 22px;
+    right: 18px;
+  }
+
+  .services__description {
     width: 36.5vw;
     height: 212px;
     top: 209px;
@@ -303,7 +355,7 @@ html, body {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .activities__box {
+  .services__box {
     display: none;
   }
 
@@ -314,7 +366,7 @@ html, body {
 
 }
 
-@media (min-width: 1440px) and (max-width: 1920px) {
+@media (min-width: 1440px) and (max-width: 2560px) {
   .investments__agriculture {
     font-size: 60px;
     line-height: 60px;
