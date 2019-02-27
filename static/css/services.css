@@ -123,7 +123,7 @@ html, body {
     position: absolute;
   }
 
-  .field__image {
+  .investments__image {
     width: 100%;
     top: 21px;
     position: absolute;
@@ -253,14 +253,6 @@ html, body {
     top: 87px;
   }
 
-  .investments__paragraph {
-    top: 394px;
-  }
-
-  .investments__experience {
-
-  }
-
   .investments__offers {
     right: 3.41vw;
     position: absolute;
@@ -274,13 +266,6 @@ html, body {
 
   .investments__agriculture {
     top: 21px;
-    position: absolute;
-    font-size: 60px;
-    line-height: 60px;
-  }
-
-  .investments__years {
-    top: 240px;
     position: absolute;
   }
 
@@ -303,11 +288,11 @@ html, body {
     top: 722px;
   }
 
-  .investments__information, .investments__field, .field__image {
+  .investments__information, .investments__field, .investments__image {
     height: 880px;
   }
 
-  .field__image {
+  .investments__image {
     top: -3px;
     position: absolute;
     width: 50vw;
@@ -319,4 +304,26 @@ html, body {
   .activities__box {
     display: none;
   }
+
+  .investments__information, .investments__field, .investments__image {
+    height: 1124px;
+  }
 }
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .investments__agriculture {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .investments__years {
+    top: 240px;
+    position: absolute;
+  }
+
+  .investments__paragraph {
+    top: 394px;
+  }
+}
+
+

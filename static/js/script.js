@@ -19,9 +19,9 @@ var navBox = document.getElementsByClassName("nav__box")[0];
 //         navBox.style.visibility = 'visible';
 //     }
 //   }
-var width = window.matchMedia("max-width: 768")
-toggleVisibility(width)
-toggleMenu.addListener()
+// var width = window.matchMedia("max-width: 768")
+// toggleVisibility(width)
+// toggleMenu.addListener()
 
 // Function for toggling menu on mobile
 toggleMenu.addEventListener('click', function (e) {
