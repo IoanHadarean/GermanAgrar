@@ -6,6 +6,8 @@ var servicesDarken = document.getElementsByClassName("services__darken")[0];
 var navItems = document.getElementsByClassName("nav__items")[0];
 var navBox = document.getElementsByClassName("nav__box")[0];
 var navCheckbox = document.getElementsByClassName("nav__checkbox")[0];
+var englishRadio = document.getElementsByClassName("english__radio")[0];
+var deutchRadio = document.getElementsByClassName("deutch__radio")[0];
 
 
 // Function to hide servicesHeader, servicesImage and servicesDarken only below 768px
@@ -49,6 +51,11 @@ toggleMenu.addEventListener('click', function (e) {
     }
     e.preventDefault();
 })
+
+
+// Function for checking and unchecking english and deutch radio buttons
+
+
 
 
 
