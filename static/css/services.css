@@ -279,7 +279,7 @@ html, body {
     position: absolute;
     width: 50vw;
     background: #ACD025;
-    height: 693px;
+    height: 690px;
     top: 2290px;
   }
 
@@ -310,6 +310,44 @@ html, body {
     font-size: 16px;
 
     color: #FFFFFF;
+  }
+
+  /* ----------------------------- Partner -------------------------------*/
+
+  .partner__logo {
+    width: 14vw;
+    height: 60px;
+    left: 43vw;
+    position: absolute;
+  }
+
+  .partner__image {
+    width: 14vw;
+  }
+
+  .partner__description {
+    width: 30vw;
+    height: 32px;
+    left: 36.5vw;
+    right: 37.57vw;
+    padding-top: 45px;
+    position: absolute;
+    text-align: center;
+    font-family: Calibre;
+    line-height: 32px;
+    font-size: 32px;
+
+    color: #006F3C;
+  }
+
+  .partner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    top: 2980px;
+    position: absolute;
   }
 
 /* ---------------------------------Media queries -------------------------*/
