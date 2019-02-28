@@ -518,6 +518,23 @@ html, body {
     top: 40px;
     position: absolute;
   }
+
+  .businesses__box {
+    top: 2290px;
+    width: 53px;
+    height: 53px;
+    background: #00A84F;
+    left: 50vw;
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: 1;
+  }
+
+  .businesses__arrow {
+    position: absolute;
+    top: 22px;
+    right: 18px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1340px) {
