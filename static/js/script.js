@@ -10,21 +10,6 @@ var englishRadio = document.getElementsByClassName("english__radio")[0];
 var deutchRadio = document.getElementsByClassName("deutch__radio")[0];
 
 
-// Function to hide servicesHeader, servicesImage and servicesDarken only below 768px
-
-// function toggleVisibility(width) {
-//     if (width.matches) { // If media query matches
-//         navItems.style.visibility = 'hidden';
-//         navBox.style.visibility = 'hidden';
-//     } else {
-//         navItems.style.visibility = 'visible';
-//         navBox.style.visibility = 'visible';
-//     }
-//   }
-// var width = window.matchMedia("max-width: 768")
-// toggleVisibility(width)
-// toggleMenu.addListener()
-
 // Function for toggling menu on mobile
 toggleMenu.addEventListener('click', function (e) {
     if (navItems.style.display === 'none') {
@@ -52,8 +37,6 @@ toggleMenu.addEventListener('click', function (e) {
     e.preventDefault();
 })
 
-
-// Function for checking and unchecking english and deutch radio buttons
 
 
 
