@@ -134,6 +134,14 @@ html, body {
     display: none;
 }
 
+.nav__checkbox {
+    position: absolute;
+    width: 76.2vw;
+    top: 450px;
+    left: 10.62vw;
+    right: 13.18vw;
+}
+
 
 
 /* ------- Media Queries (except IPAD) -------------- */
@@ -231,6 +239,9 @@ html, body {
 }
 
 @media (min-width: 768px) and (max-width: 2560px) {
+    .nav__checkbox {
+        display: none;
+    }
     .header__nav {
         text-align: center;
     }
