@@ -252,6 +252,68 @@ html, body {
     color: #FFFFFF;
   }
 
+  /*-------------------------------- Land --------------------------------*/
+
+  .land__logo {
+    top: 53px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .land__field {
+    width: 50vw;
+    left: 50%;
+    height: 690px;
+    position: absolute;
+    top: 2290px;
+  }  
+
+  .land__image {
+    height: 690px;
+    width: 50vw;
+  }
+
+  .land__information {
+    position: absolute;
+    width: 50vw;
+    background: #00A84F;
+    height: 693px;
+    top: 2290px;
+  }
+
+  .land__description {
+    position: absolute;
+    height: 283px;
+    top: 406px;
+    left: 8.12vw;
+    
+  }
+
+  .land__header {
+    height: 200px;
+    left: 8.12vw;
+    top: 136px;
+    position: absolute;
+    right: 7.81vw;
+    font-family: Calibre;
+    line-height: 40px;
+    font-size: 40px;
+
+    color: #FFFFFF;
+  } 
+
+  .land__investment {
+    font-family: Calibre;
+    line-height: 24px;
+    font-size: 16px;
+
+    color: #FFFFFF;
+  }
+
 /* ---------------------------------Media queries -------------------------*/
 
 @media screen and (max-width: 767px) {
@@ -387,7 +449,7 @@ html, body {
   }
 
   .businesses__field {
-    top: 1720px;
+    top: 1600px;
     width: 50vw;
     right: 50%;
     height: 690px;
@@ -398,7 +460,7 @@ html, body {
   }
 
   .businesses__information {
-    top: 1720px;
+    top: 1600px;
     width: 50vw;
     left: 50%;
     height: 690px;
