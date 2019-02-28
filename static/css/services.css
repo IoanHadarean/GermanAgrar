@@ -193,7 +193,7 @@ html, body {
   /*-------------------------------Businesses------------------------*/
 
   .businesses__logo {
-    top: 53px;
+    top: 89px;
     position: absolute;
     width: 100%;
     display: flex;
@@ -228,7 +228,7 @@ html, body {
     height: 283px;
     top: 406px;
     left: 8.12vw;
-    
+    right: 11.81vw;
   }
 
   .businesses__header {
@@ -255,12 +255,10 @@ html, body {
   /*-------------------------------- Land --------------------------------*/
 
   .land__logo {
-    top: 53px;
+    top: 132px;
     position: absolute;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    left: 8.82vw;
   }
 
 
@@ -280,7 +278,7 @@ html, body {
   .land__information {
     position: absolute;
     width: 50vw;
-    background: #00A84F;
+    background: #ACD025;
     height: 693px;
     top: 2290px;
   }
@@ -288,20 +286,20 @@ html, body {
   .land__description {
     position: absolute;
     height: 283px;
-    top: 406px;
+    top: 355px;
     left: 8.12vw;
-    
+    right: 6.88vw;
   }
 
   .land__header {
     height: 200px;
     left: 8.12vw;
-    top: 136px;
+    top: 167px;
     position: absolute;
     right: 7.81vw;
     font-family: Calibre;
-    line-height: 40px;
-    font-size: 40px;
+    line-height: 60px;
+    font-size: 60px;
 
     color: #FFFFFF;
   } 
@@ -459,11 +457,27 @@ html, body {
     height: 690px;
   }
 
+  .businesses__management {
+    font-size: 60px;
+    line-height: 60px;
+    height: 180px;
+  }
+
+  .businesses__header, .businesses__description {
+    left: 4.03vw;
+    right: 4.03vw;
+  }
+
   .businesses__information {
     top: 1600px;
     width: 50vw;
     left: 50%;
     height: 690px;
+  }
+
+  .businesses__leasing {
+    top: 40px;
+    position: absolute;
   }
 }
 
