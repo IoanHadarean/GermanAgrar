@@ -274,6 +274,7 @@ input[type = "radio"] {
     .nav__checkbox {
         display: none;
     }
+    
     .header__nav {
         text-align: center;
     }

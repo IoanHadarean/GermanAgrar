@@ -351,12 +351,35 @@ html, body {
     color: #006F3C;
   }
 
+  .partner__field {
+    overflow-x: hidden;
+  }
+
 /* ---------------------------------Media queries -------------------------*/
 
 @media screen and (max-width: 767px) {
   .investments__box, .range__header, .services__darken, .services__image {
     width: 100%;
   }
+
+  .partner, .land__information, .land__field, .land__image {
+    width: 100vw;
+    left: 0;
+  }
+
+  .land__field, .land__image {
+    height: 324px;
+    top: 3406px;
+  }
+
+  .land__information {
+    top: 3730px;
+  }
+
+  .partner {
+    top: 4400px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 2560px) {
