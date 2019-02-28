@@ -178,7 +178,7 @@ html, body {
     top: 1224px;
   }
 
-  .investments__paragraph {
+  .investments__description {
     top: 350px;
     position: absolute;
     left: 13.75vw;
@@ -223,7 +223,7 @@ html, body {
     top: 2714px;
   }
 
-  .businesses__paragraph {
+  .businesses__description {
     position: absolute;
     height: 283px;
     top: 406px;
@@ -313,7 +313,7 @@ html, body {
     font-size: 22px;
   }
 
-  .investments__logo, .investments__paragraph {
+  .investments__logo, .investments__description {
     position: absolute;
     text-align: left;
     left: 8.75vw;
@@ -449,7 +449,7 @@ html, body {
     position: absolute;
   }
 
-  .investments__paragraph {
+  .investments__description {
     top: 394px;
   }
 }
