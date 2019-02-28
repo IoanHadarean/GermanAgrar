@@ -1,15 +1,24 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+@font-face {font-family:"Calibre";
+    src:url("../fonts/Calibre.eot") format("eot"),
+        url("Calibre.woff") format("woff"),
+        url("Calibre.ttf") format("truetype"),
+        url("Calibre.svg#Calibre") format("svg");
+        font-weight:normal;font-style:normal;}
+
+
 /* -------- JavaScript classes ----------- */
 .translateTop {
-    -webkit-transition: ease 2s;
-    transition: ease 2s;
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
     -webkit-transform: translateY(-200%);
     -ms-transform: translateY(-200%);
     transform: translateY(-200%);
 }
 
 .translateBottom {
-    -webkit-transition: ease 2s;
-    transition: ease 2s;
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -69,6 +78,7 @@ html, body {
     left: 3.12%;
     right: 87.66%;
     top: 2.64vh;
+    width: 108px;
 }
 
 .header__nav {
@@ -140,7 +150,7 @@ html, body {
 }
 
 .nav__checkbox {
-    height: 360px;
+    height: 40px;
     width: 100%;
     top: 450px;
 }
@@ -176,7 +186,7 @@ input[type = "radio"] {
     height: 25px;
 }
 
-input[type = "radio"]:checked:after {
+input[name = "checkbox"] {
     background: green;
 }
 
@@ -190,7 +200,7 @@ input[type = "radio"]:checked:after {
     }
 
     .header__nav {
-        height: 416px;
+        height: 490px;
     }
 
     .nav__link {

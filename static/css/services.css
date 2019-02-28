@@ -1,6 +1,19 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
-@font-face {font-family:""Calibre"";src:url(""Calibre".eot?") format("eot"),url(""Calibre".woff") format("woff"),url(""Calibre".ttf") format("truetype"),url(""Calibre".svg#"Calibre"") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"Calibre";
+  src:url("../fonts/Calibre.eot") format("eot"),
+      url("..fonts/Calibre.woff") format("woff"),
+      url("Calibre.ttf") format("truetype"),
+      url("Calibre.svg#Calibre") format("svg");
+      font-weight:normal;
+      font-style:normal;}
 
+@font-face {font-family:"Calibre";
+  src:url("../fonts/Calibre-BoldItalic.eot") format("eot"),
+      url("Calibre.woff") format("woff"),
+      url("Calibre.ttf") format("truetype"),
+      url("Calibre.svg#Calibre") format("svg");
+      font-weight:700;
+      font-style:italic;}
 
 /* ------ Special margins and styling -------- */
 html, body {
@@ -68,7 +81,7 @@ html, body {
     top: 65px;
     z-index: 2;
     position: absolute;
-    font-family: ""Calibre"";
+    font-family: "Calibre";
     font-size: 45px;
     
     color: #006F3C;
@@ -88,7 +101,7 @@ html, body {
     height: 20px;
     width: 100%;
     top: 401px;
-    font-family: ""Calibre"";
+    font-family: "Calibre";
     line-height: 20px;
     font-size: 20px;
     text-align: center;
@@ -151,7 +164,7 @@ html, body {
     right: 2.19%;
     top: 100px;
     height: 166px;
-    font-family: ""Calibre"";
+    font-family: "Calibre";
 
     color: #FFFFFF;
   }
@@ -185,7 +198,7 @@ html, body {
     position: absolute;
     left: 13.75vw;
     right: 5vw;
-    font-family: "Calibre";
+    font-family: Calibre;
     line-height: 24px;
     font-size: 16px;
 
@@ -239,7 +252,7 @@ html, body {
     top: 136px;
     position: absolute;
     right: 7.81vw;
-    font-family: "Calibre";
+    font-family: Calibre;
     line-height: 40px;
     font-size: 40px;
 
@@ -247,7 +260,7 @@ html, body {
   } 
 
   .businesses__leasing {
-    font-family: "Calibre";
+    font-family: Calibre;
     line-height: 24px;
     font-size: 16px;
 
@@ -298,7 +311,7 @@ html, body {
     top: 167px;
     position: absolute;
     right: 7.81vw;
-    font-family: "Calibre";
+    font-family: Calibre;
     line-height: 60px;
     font-size: 60px;
 
@@ -306,7 +319,7 @@ html, body {
   } 
 
   .land__investment {
-    font-family: "Calibre";
+    font-family: Calibre;
     line-height: 24px;
     font-size: 16px;
 
@@ -339,7 +352,7 @@ html, body {
     text-align: center;
     padding-top: 45px;
     position: absolute;
-    font-family: "Calibre";
+    font-family: Calibre;
     line-height: 32px;
     font-size: 32px;
 

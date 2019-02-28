@@ -1,6 +1,6 @@
 // Declare variables
 var toggleMenu = document.getElementsByClassName('toggle__menu')[0];
-var navHeader = document.getElementsByClassName('')
+var navHeader = document.getElementsByClassName('header__nav')[0];
 var servicesHeader = document.getElementsByClassName("services__range")[0];
 var servicesImage = document.getElementsByClassName("services__image")[0];
 var servicesDarken = document.getElementsByClassName("services__darken")[0];
@@ -16,6 +16,8 @@ toggleMenu.addEventListener('click', function (e) {
     if (navItems.style.display === 'none') {
         navItems.classList.add('nav__items--active');
         navBox.classList.add('nav__box--active');
+        navHeader.classList.add('translateBottom');
+        navHeader.classList.remove('translateTop');
         navItems.style.display = 'block';
         navBox.style.display = 'block';
         navCheckbox.style.display = 'block';
@@ -28,6 +30,8 @@ toggleMenu.addEventListener('click', function (e) {
         navItems.style.display = 'none';
         navBox.style.display = 'none';
         navCheckbox.style.display = 'none';
+        navHeader.classList.add('translateTop');
+        navHeader.classList.remove('translateBottom');
         navItems.classList.remove('nav__items--active');
         navBox.classList.remove('nav__box--active');
         toggleMenu.style.transform = 'rotate(90deg)';
