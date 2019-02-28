@@ -314,12 +314,28 @@ html, body {
 
   /* ----------------------------- Partner -------------------------------*/
 
+  .partner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    top: 2980px;
+    position: absolute;
+  }
+
+  .partner__container {
+    top: 90px;
+    height: 163px;
+    width: 100%;
+    background-image: url('images/germanagrar.svg');
+  }
+
   .partner__logo {
     width: 14vw;
     height: 60px;
     left: 43vw;
     position: absolute;
-    top: 90px;
   }
 
   .partner__image {
@@ -339,16 +355,6 @@ html, body {
     font-size: 32px;
 
     color: #006F3C;
-  }
-
-  .partner {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    top: 2980px;
-    position: absolute;
   }
 
 /* ---------------------------------Media queries -------------------------*/
