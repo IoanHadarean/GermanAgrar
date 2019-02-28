@@ -33,7 +33,6 @@ html, body {
     left: 50%;
     right: 0%;
     top: 2.41%;
-    bottom: 78.3%;
   }
 
   .services__darken {
@@ -42,7 +41,6 @@ html, body {
     float: right;
     left: 50%;
     right: 0%;
-    bottom: 78.34%;
   }
 
   .range__header {
@@ -257,8 +255,7 @@ html, body {
   .land__logo {
     top: 132px;
     position: absolute;
-    width: 100%;
-    left: 8.82vw;
+    left: 8.12vw;
   }
 
 
@@ -382,6 +379,26 @@ html, body {
 
   .land__information {
     top: 3730px;
+  }
+
+  .land__logo {
+    top: 39px;
+    left: 39.38vw;
+    right: 33.12vw;
+  }
+
+  .land__header {
+    top: 176px;
+  }
+
+  .land__management {
+    margin: 0;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .land__description {
+    top: 288px;
   }
 
   .partner {
