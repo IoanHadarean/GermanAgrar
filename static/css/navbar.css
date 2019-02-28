@@ -134,14 +134,54 @@ html, body {
     display: none;
 }
 
+.nav__english, .nav__deutch, .deutch__description, .english__description, .nav__checkbox {
+    position: absolute;
+}
 
+.nav__checkbox {
+    height: 360px;
+    width: 100%;
+    top: 450px;
+}
+
+.deutch__description, .english__description {
+    font-family: Calibre;
+    line-height: 13px;
+    font-size: 23px;
+    letter-spacing: 0.0707692px;
+    padding-top: 10px;
+
+    color: #BCBFBB;
+}
+
+.deutch__description {
+    left: 24vw;
+}
+
+.english__description {
+    right: 13.12vw;
+}
+
+.nav__english {
+    right: 37.5vw;
+}
+
+.nav__deutch {
+    left: 10.62vw;
+}
+
+input[type = "radio"] {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+}
 
 
 /* ------- Media Queries (except IPAD) -------------- */
 
 
 @media screen and (max-width: 767px) {
-    .header__line, .nav__country, .nav__flag {
+    .nav__checkbox, .header__line, .nav__country, .nav__flag {
       display: none;
     }
 
