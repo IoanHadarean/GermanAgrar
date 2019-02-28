@@ -327,14 +327,9 @@ html, body {
   .partner__logo {
     width: 193px;
     height: 60px;
-    width: 100%;
     text-align: center;
     top: 80px;
     position: absolute;
-  }
-
-  .partner__image {
-    width: 14vw;
   }
 
   .partner__description {
@@ -343,12 +338,16 @@ html, body {
     text-align: center;
     padding-top: 45px;
     position: absolute;
-    text-align: center;
     font-family: Calibre;
     line-height: 32px;
     font-size: 32px;
 
     color: #006F3C;
+  }
+  
+  .partner__info {
+    padding: 0;
+    margin: 0;
   }
 
   .partner__field {
@@ -367,6 +366,15 @@ html, body {
     left: 0;
   }
 
+  .partner__image {
+    width: 193px;
+    height: 60px;
+  }
+
+  .partner__logo {
+    top: 136px;
+  }
+
   .land__field, .land__image {
     height: 324px;
     top: 3406px;
@@ -377,7 +385,19 @@ html, body {
   }
 
   .partner {
-    top: 4400px;
+    top: 4420px;
+    height: 370px;
+  }
+
+  .partner__description {
+    line-height: 31px;
+    font-size: 30px;
+    text-align: center;
+    height: 62px;
+    top: 171px;
+    width: 197px;
+    bottom: 57px;
+    color: #006F3C;
   }
 
 }
@@ -608,9 +628,3 @@ html, body {
     top: 394px;
   }
 }
-
-
-
-
-
-
