@@ -1,5 +1,6 @@
 // Declare variables
 var toggleMenu = document.getElementsByClassName('toggle__menu')[0];
+var navHeader = document.getElementsByClassName('')
 var servicesHeader = document.getElementsByClassName("services__range")[0];
 var servicesImage = document.getElementsByClassName("services__image")[0];
 var servicesDarken = document.getElementsByClassName("services__darken")[0];

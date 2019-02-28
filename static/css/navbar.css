@@ -84,17 +84,18 @@ html, body {
 
 .nav__link {
     height: 11px;
-    font-family: Calibre;
+    font-family: "Calibre";
     line-height: 11px;
     font-size: 13px;
     letter-spacing: 1.24429px;
     text-transform: uppercase;
 
     color: #006F3C;
+    background-color: #FFF;
 }
 
 .nav__country {
-    font-family: Calibre;
+    font-family: "Calibre";
     letter-spacing: 1.24429px;
     line-height: 11px;
     font-size: 13px;
@@ -115,7 +116,7 @@ html, body {
     line-height: 65px;
     padding: 29px 57px 25px 33px;
   
-    font-family: Calibre;
+    font-family: "Calibre";
     font-size: 13px;
     letter-spacing: 1.20714px;
     text-transform: uppercase;
@@ -145,7 +146,7 @@ html, body {
 }
 
 .deutch__description, .english__description {
-    font-family: Calibre;
+    font-family: "Calibre";
     line-height: 13px;
     font-size: 23px;
     letter-spacing: 0.0707692px;
@@ -175,6 +176,10 @@ input[type = "radio"] {
     height: 25px;
 }
 
+input[type = "radio"]:checked:after {
+    background: green;
+}
+
 
 /* ------- Media Queries (except IPAD) -------------- */
 
@@ -191,7 +196,7 @@ input[type = "radio"] {
     .nav__link {
         left: 10.62%;
         right: 12.19%;
-        font-family: Calibre;
+        font-family: "Calibre";
         font-size: 23px;
         letter-spacing: 2.2px;
         text-transform: uppercase;
@@ -256,7 +261,7 @@ input[type = "radio"] {
         left: 85%;
         top: 31px;
         position: absolute;
-        font-family: Calibre;
+        font-family: "Calibre";
         line-height: 13px;
         font-size: 13px;
         letter-spacing: 0.04px;
@@ -274,7 +279,7 @@ input[type = "radio"] {
     .nav__checkbox {
         display: none;
     }
-    
+
     .header__nav {
         text-align: center;
     }

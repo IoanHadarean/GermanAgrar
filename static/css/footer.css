@@ -24,7 +24,7 @@ html, body {
     top: 35px;
     right: 27.19vw;
     height: 14px;
-    font-family: Calibre;
+    font-family: "Calibre";
     font-size: 17px;
     display: flex;
     text-align: center;
@@ -40,7 +40,7 @@ html, body {
     justify-content: center;
     left: 10vw;
     position: absolute;
-    font-family: Calibre;
+    font-family: "Calibre";
     height: 14px;
     font-size: 15px;
 
