@@ -319,6 +319,7 @@ html, body {
     height: 60px;
     left: 43vw;
     position: absolute;
+    top: 90px;
   }
 
   .partner__image {

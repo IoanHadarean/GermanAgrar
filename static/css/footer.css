@@ -11,7 +11,7 @@ html, body {
   
  .footer {
     position: absolute;
-    top: 600vh;
+    top: 3280px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -22,14 +22,12 @@ html, body {
 
 .footer__terms {
     top: 35px;
-    left: 27.19vw;
     right: 27.19vw;
     height: 14px;
     font-family: Calibre;
     font-size: 17px;
     display: flex;
     text-align: center;
-    justify-content: center;
     position: absolute;
 
     color: #006F3C;
@@ -37,12 +35,10 @@ html, body {
 
 .footer__copyright {
     top: 64px;
-    width: 79vw;
     display: flex;
     text-align: center;
     justify-content: center;
     left: 10vw;
-    right: 11vw;
     position: absolute;
     font-family: Calibre;
     height: 14px;
@@ -52,19 +48,16 @@ html, body {
     color: #97ABA2;
 }
 
-@media (min-width: 768px) and (max-width: 1920px) {
+@media (min-width: 768px) and (max-width: 2560px) {
     .footer {
         height: 50px;
         top: none;
     }
 
     .footer__terms {
-        top: 0;
+        top: 18px;
         right: 1.6vw;
-        width: 8.8vw;
-        left: 89.58vw;
         position: absolute;
-        padding-top: 20px;
     }
 
     .footer__copyright {
