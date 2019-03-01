@@ -1,3 +1,10 @@
+
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+@font-face {font-family:"Calibre";
+    src:url("../fonts/Calibre.woff") format("woff"),
+        url("../fonts/Calibre.ttf") format("truetype");
+        font-weight:normal;
+        font-style:normal;}
 /* -------- JavaScript classes ----------- */
 .translateTop {
     -webkit-transition: ease 2s;
@@ -84,7 +91,18 @@ html, body {
 
 .nav__link {
     height: 11px;
+
+
+    font-family: "Calibre";
+
+
+
+
     font-family: Calibre;
+
+
+    font-family: Calibre;
+
     line-height: 11px;
     font-size: 13px;
     letter-spacing: 1.24429px;
