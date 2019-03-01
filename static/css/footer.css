@@ -1,29 +1,10 @@
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
 @font-face {font-family:"Calibre";
-<<<<<<< HEAD
     src:url("../fonts/Calibre.woff") format("woff"),
         url("../fonts/Calibre.ttf") format("truetype");
         font-weight:normal;
         font-style:normal;}
 
-=======
-    src:url("../fonts/Calibre.eot") format("eot"),
-        url("..fonts/Calibre.woff") format("woff"),
-        url("Calibre.ttf") format("truetype"),
-        url("Calibre.svg#Calibre") format("svg");
-        font-weight:normal;
-        font-style:normal;}
-
-@font-face {font-family:"Calibre";
-    src:url("../fonts/Calibre-BoldItalic.eot") format("eot"),
-        url("Calibre.woff") format("woff"),
-        url("Calibre.ttf") format("truetype"),
-        url("Calibre.svg#Calibre") format("svg");
-        font-weight:700;
-        font-style:italic;}
-
-
->>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
 /* ------ Special margins and styling -------- */
 html, body {
     width: 100%;
@@ -48,10 +29,6 @@ html, body {
 
 .footer__terms {
     top: 35px;
-<<<<<<< HEAD
-=======
-    right: 27.19vw;
->>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
     height: 14px;
     font-family: "Calibre";
     font-size: 17px;
@@ -67,10 +44,6 @@ html, body {
     display: flex;
     text-align: center;
     justify-content: center;
-<<<<<<< HEAD
-=======
-    left: 10vw;
->>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
     position: absolute;
     font-family: "Calibre";
     height: 14px;
@@ -84,7 +57,6 @@ html, body {
     .footer {
         top: 4790px;
     }
-<<<<<<< HEAD
 
     .footer__content {
         width: 100%;
@@ -92,8 +64,6 @@ html, body {
         align-items: center;
         justify-content: center;
     }
-=======
->>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
 }
 
 
