@@ -17,7 +17,7 @@
 
     <header class="header">
         <div class="header__container">
-            <div class="header__logo logo">
+            <div class="header__logo">
                 <a href="index.html">
                     <img class="logo__image" src="../images/logo.png" alt="logo">
                 </a>
@@ -31,6 +31,16 @@
                     <a href="" class="nav__link">MEDIA</a>
                     <a href="" class="nav__link">IMPRINT</a>
                 </li>
+                <div class="nav__checkbox">
+                    <div class="nav__deutch">
+                        <input class = "deutch__radio" type="radio" name="checkbox" id="checkbox__deutch" value="Deutch" checked>
+                    </div>
+                    <span class="deutch__description">Deutch</span>
+                    <div class="nav__english">
+                        <input class = "english__radio" type="radio" name="checkbox" id="checkbox__english" value="English">
+                    </div>
+                    <span class="english__description">English</span>
+                </div>
             </div>
             <div class="nav__country">
                 <span>Deutch</span>
@@ -46,23 +56,23 @@
                 </a>
             </div>
             <div class="nav__box">
-                <span class="box__offers">Offers</span>
+                <span class="nav__offers">Offers</span>
                 <a href="#">
-                    <img class="box__arrow" src="../images/arrow.png" alt="nav-arrow" />
+                    <img class="nav__arrow" src="../images/arrow.png" alt="nav-arrow" />
                 </a>
             </div>
         </div>
     </header>
     <hr class="header__line">
 
-    <!-- Service Range section -->
+    <!-- Services section -->
     <section class="services">
         <div class="services__range">
             <h4 class="range__header">Service Range</h4>
         </div>
         <div class="services__information">
             <div class="services__activities">
-                <div class="activities__paragraph">
+                <div class="services__description">
                     <p>The german agrar group provides a wide range of
                         services related to agriculture, including legal advice
                         and support and the management of agricultural
@@ -73,12 +83,12 @@
                         Our activities are concentrated in Eastern Europe.
                     </p>
                 </div>
-                <div class="activities__explore">
+                <div class="services__explore">
                     <span>Explore our services below</span>
                 </div>
-                <div class="activities__box">
+                <div class="services__box">
                     <a href="#">
-                        <img class="box__arow" src="../images/arrow.png" alt="services-arrow">
+                        <img class="services__arrow" src="../images/arrow.png" alt="services-arrow">
                     </a>
                 </div>
             </div>
@@ -106,7 +116,7 @@
                     <h4 class="investments__agriculture">Direct Investments in Agriculture</h4>
                     <span class="investments__years">+15 years of experience</span>
                 </div>
-                <div class="investments__paragraph">
+                <div class="investments__description">
                     <p class="investments__experience">
                         Our long experience allow us to assess current conditions accurately and to advise
                         our clients on where and how they can best invest in agriculture.
@@ -127,30 +137,35 @@
                     </p>
                 </div>
             </div>
+            <div class="investments__box">
+                <a href="#">
+                    <img class="investments__arrow" src="../images/arrow.png" alt="investments-arrow">
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Managing agricultural businesses -->
-    <!-- <section>
-        <div class = "businesses">
-            <div class = "businesses__field">
-                <a href = "#">
-                    <img class = "businesses__image" src = "../images/tractor.jpg" alt = "businesses-image">
+    <!-- Managing agricultural businesses section -->
+    <section>
+        <div class="businesses">
+            <div class="businesses__field">
+                <a href="#">
+                    <img class="businesses__image" src="../images/traktor.png" alt="businesses-image">
                 </a>
             </div>
             <div class="businesses__information">
                 <div class="businesses__logo">
                     <a href="#">
-                        <img class="logo__traktor" src="../images/traktor_logo.jpg" alt="investments-logo">
+                        <img class="logo__traktor" src="../images/traktor_logo.png" alt="investments-logo">
                     </a>
                 </div>
                 <div class="businesses__header">
-                    <h4 class="businesses__management">Direct Investments in Agriculture</h4>
+                    <h4 class="businesses__management">Managing Agricultural Businesses - Leasing Land Back</h4>
                 </div>
-                <div class="businesses__paragraph">
+                <div class="businesses__description">
                     <p class="businesses__leasing">
-                        Arable farming is one of our core areas of expertise. Our long-standing 
-                        experience has helped us to optimally adapt farming technology and labour 
+                        Arable farming is one of our core areas of expertise. Our long-standing
+                        experience has helped us to optimally adapt farming technology and labour
                         organization to local conditions, enabling us to achieve outstanding results.
                         <br>
                         Apart from managing our own agricultural businesses, we also offer our
@@ -158,11 +173,67 @@
                     </p>
                 </div>
             </div>
+            <div class="businesses__box">
+                <a href="#">
+                    <img class="businesses__arrow" src="../images/arrow.png" alt="businesses-arrow">
+                </a>
+            </div>
         </div>
-    </section> -->
+    </section>
 
+    <!-- Land management section-->
+    <section>
+        <div class="land">
+            <div class="land__information">
+                <div class="land__logo">
+                    <a href="#">
+                        <img class="logo__land" src="../images/land__logo.png" alt="land-logo">
+                    </a>
+                </div>
+                <div class="land__header">
+                    <h4 class="land__management">Land Management</h4>
+                </div>
+                <div class="land__description">
+                    <p class="land__investment">
+                        The right management can enhance the benefits of a capital investment in
+                        farmland over the long term, and choosing the best kind of leasing arrangement
+                        and type of cultivation can increase the return on an investment significantly.
+                        <br>
+                        Our client base includes numerous financially strong businesses with an
+                        interest in leasing arable land, as well as renewable energy producers. We are
+                        also able to choose the best candidate from local bidders for leasehold, draw up
+                        the most effective type of contracts, and provide long-term lease management.
+                    </p>
+                </div>
+            </div>
+            <div class="land__field">
+                <a href="#">
+                    <img class="land__image" src="../images/land.png" alt="land-image">
+                </a>
+            </div>
+        </div>
+    </section>
 
-
+    <!-- Partner section-->
+    <section>
+        <div class="partner">
+            <div class="partner__logo">
+                <a href="index.html">
+                    <img class="partner__image" src="../images/logo.png" alt="partner-logo">
+                </a>
+            </div>
+            <div class="partner__description">
+                <p class="partner__info">
+                    Your partner in Eastern Europe
+                </p>
+            </div>
+            <div class="partner__field">
+                <a href="#">
+                    <img src="../images/germanagrar.png" alt = germanagrar-background>
+                </a>
+            </div>
+        </div>
+    </section>
 
 
 
