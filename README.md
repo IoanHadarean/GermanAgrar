@@ -1,2 +1,2 @@
 # GermanAgrar
-# Figma Website
+Figma Website

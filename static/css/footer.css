@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
 @font-face {font-family:"Calibre";
 <<<<<<< HEAD
@@ -24,6 +25,8 @@
 
 
 >>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
+=======
+>>>>>>> parent of be4f4d6... Added fix for footer in mobile/added Calibre font
 /* ------ Special margins and styling -------- */
 html, body {
     width: 100%;
@@ -33,11 +36,11 @@ html, body {
 }
 
 
-/* ----------------------------- Footer ---------------------*/
+/* ----------------------------- Footer---------------------*/
   
  .footer {
     position: absolute;
-    top: 3280px;
+    top: 600vh;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -49,14 +52,16 @@ html, body {
 .footer__terms {
     top: 35px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     right: 27.19vw;
 >>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
+=======
+    left: 27.19vw;
+>>>>>>> parent of be4f4d6... Added fix for footer in mobile/added Calibre font
     height: 14px;
-    font-family: "Calibre";
+    font-family: Calibre;
     font-size: 17px;
-    display: flex;
-    text-align: center;
     position: absolute;
 
     color: #006F3C;
@@ -64,6 +69,7 @@ html, body {
 
 .footer__copyright {
     top: 64px;
+<<<<<<< HEAD
     display: flex;
     text-align: center;
     justify-content: center;
@@ -71,8 +77,13 @@ html, body {
 =======
     left: 10vw;
 >>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
+=======
+    width: 79vw;
+    left: 10vw;
+    right: 11vw;
+>>>>>>> parent of be4f4d6... Added fix for footer in mobile/added Calibre font
     position: absolute;
-    font-family: "Calibre";
+    font-family: Calibre;
     height: 14px;
     font-size: 15px;
 
@@ -80,6 +91,7 @@ html, body {
     color: #97ABA2;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 767px) {
     .footer {
         top: 4790px;
@@ -98,15 +110,21 @@ html, body {
 
 
 @media (min-width: 768px) and (max-width: 2560px) {
+=======
+@media (min-width: 768px) and (max-width: 1920px) {
+>>>>>>> parent of be4f4d6... Added fix for footer in mobile/added Calibre font
     .footer {
         height: 50px;
         top: none;
     }
 
     .footer__terms {
-        top: 18px;
+        top: 0;
         right: 1.6vw;
+        width: 8.8vw;
+        left: 89.58vw;
         position: absolute;
+        padding-top: 20px;
     }
 
     .footer__copyright {
@@ -117,5 +135,4 @@ html, body {
     }
     
 }
-
   
