@@ -1,22 +1,10 @@
-<<<<<<< HEAD
+
 /* @font-face kit by Fonts2u (https://fonts2u.com) */ 
 @font-face {font-family:"Calibre";
-<<<<<<< HEAD
     src:url("../fonts/Calibre.woff") format("woff"),
         url("../fonts/Calibre.ttf") format("truetype");
         font-weight:normal;
         font-style:normal;}
-=======
-    src:url("../fonts/Calibre.eot") format("eot"),
-        url("Calibre.woff") format("woff"),
-        url("Calibre.ttf") format("truetype"),
-        url("Calibre.svg#Calibre") format("svg");
-        font-weight:normal;font-style:normal;}
->>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
-
-
-=======
->>>>>>> parent of be4f4d6... Added fix for footer in mobile/added Calibre font
 /* -------- JavaScript classes ----------- */
 .translateTop {
     -webkit-transition: ease 2s;
@@ -103,15 +91,18 @@ html, body {
 
 .nav__link {
     height: 11px;
-<<<<<<< HEAD
+
+
     font-family: "Calibre";
-<<<<<<< HEAD
-    text-decoration: none;
-=======
->>>>>>> ae9ee428b9e4ab7c3d0ac3ce7a35bd6e58702946
-=======
+
+
+
+
     font-family: Calibre;
->>>>>>> parent of be4f4d6... Added fix for footer in mobile/added Calibre font
+
+
+    font-family: Calibre;
+
     line-height: 11px;
     font-size: 13px;
     letter-spacing: 1.24429px;
