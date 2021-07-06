@@ -1,0 +1,340 @@
+
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+  src:url("../fonts/Calibre.woff") format("woff"),
+      url("../fonts/Calibre.ttf") format("truetype");
+      font-weight:normal;
+      font-style:normal;}
+
+/* ------ Special margins and styling -------- */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+/* ------- Service Range---------- */
+  .services__information {
+      width: 100vw;
+      position: absolute;
+      top: 119px;
+  }
+
+  .services__activities {
+    width: 93.13vw;
+    height: 335px;
+    left: 3.12vw;
+    position: absolute;
+    top: 372.5px;
+    overflow-wrap: break-word;
+    font-family: Georgia;
+    line-height: 27px;
+    font-size: 20px;
+  }
+
+  .services__image {
+    width: 50vw;
+    float: right;
+    height: 334px;
+    left: 50%;
+    right: 0%;
+    top: 2.41%;
+    bottom: 78.3%;
+  }
+
+  .services__darken {
+    width: 50vw;
+    background: #1F2331;
+    float: right;
+    left: 50%;
+    right: 0%;
+    bottom: 78.34%;
+  }
+
+  .range__header {
+    position: absolute;
+    height: 29px;
+    margin-block-start: 0;
+    left: 3.12%;
+    top: 33px;
+    bottom: 23px;
+    line-height: 29px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+  }
+
+  .services__range {
+    background: white;
+    height: 81px;
+    left: -0.31%;
+    right: 7.5%;
+    top: 65px;
+    z-index: 2;
+    position: absolute;
+    font-family: Calibre;
+    font-size: 45px;
+    
+    color: #006F3C;
+  }
+
+  .activities__paragraph {
+    position: absolute;
+    width: 93.13vw;
+    height: 335px;
+    left: 3.12%;
+    right: 3.75%;
+
+    color: #2F302E;
+  }
+
+  .activities__explore {
+    height: 20px;
+    width: 100%;
+    top: 401px;
+    font-family: Calibre;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+    color: #006F3C;
+    top: 365px;
+    position: absolute;
+  }
+
+  .activities__box {
+    background: #006F3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    left: 43.44vw;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 401px;
+  }
+
+  .box__arrow {
+    position: absolute;
+    top: 17px;
+    right: 13px;
+  }
+
+  /* ---------------- Investments ---------------- */
+
+  .investments__field {
+    width: 100%;
+    height: 324px;
+    top: 910px;
+    position: absolute;
+  }
+
+  .investments__image {
+    width: 100%;
+    top: 21px;
+    position: absolute;
+  }
+
+  .investments__logo {
+    text-align: center;
+    position: absolute;
+    top: 47px;
+    width: 100%;
+  }
+
+  .logo__hand {
+    width: 78px;
+    height: 74.56px;
+  }
+
+  .investments__header {
+    position: absolute;
+    left: 5.62vw;
+    right: 2.19%;
+    top: 100px;
+    height: 166px;
+    font-family: Calibre;
+
+    color: #FFFFFF;
+  }
+
+  .investments__agriculture {
+    position: absolute;
+    line-height: 40px;
+    font-size: 40px;
+    height: 120px;
+    font-weight: bold;
+  }
+
+  .investments__years {
+    position: absolute;
+    top: 200px;
+    line-height: 26px;
+    font-size: 26px;
+  }
+
+  .investments__information {
+    position: absolute;
+    width: 94.38vw;
+    left: 5.62vw;
+    background: #006F3C;
+    height: 1150px;
+    top: 1224px;
+  }
+
+  .investments__paragraph {
+    top: 350px;
+    position: absolute;
+    left: 13.75vw;
+    right: 5vw;
+    font-family: Calibre;
+    line-height: 24px;
+    font-size: 16px;
+
+    color: #FFFFFF;
+  }
+
+/* ---------------------------------Media queries -------------------------*/
+
+@media screen and (max-width: 768px) {
+  .range__header, .services__darken, .services__image{
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+  .services__range, .services__information {
+    top: 65px;
+  }
+
+  .services__range {
+    background: none;
+    left: 8.68vw;
+    width: 56vw;
+    right: 35.28vw;
+    position: absolute;
+  }
+
+  .range__header {
+    top: 117px;
+  }
+
+  .services__darken, .services__image {
+    height: 663px;
+  }
+
+  .services__activities {
+    top: 0;
+    left: 0;
+  }
+
+  .activities__explore {
+    display: none;
+  }
+
+  .activities__box {
+    left: 8.82vw;
+    top: 467px;
+    width: 53px;
+    height: 53px;
+  }
+
+  .activities__paragraph {
+    width: 36.5vw;
+    height: 212px;
+    top: 209px;
+    left: 8.68vw;
+    font-family: Georgia;
+    line-height: 28px;
+    font-size: 22px;
+  }
+
+  .investments__logo, .investments__paragraph {
+    position: absolute;
+    text-align: left;
+    left: 8.75vw;
+  }
+
+  .investments__logo {
+    top: 87px;
+  }
+
+  .investments__offers {
+    right: 3.41vw;
+    position: absolute;
+  }
+
+  .investments__agriculture, .investments__years {
+    left: 3.13vw;
+    position: absolute;
+    left: 3.13vw;
+  }
+
+  .investments__agriculture {
+    top: 21px;
+    position: absolute;
+  }
+
+  .investments__field {
+    top: 724px;
+    width: 50vw;
+    left: 50%;
+  }
+
+  .investments__header {
+    height: 120px;
+    right: 6.68vw;
+  }
+
+  .investments__information {
+    float:left;
+    width: 50vw;
+    position: absolute;
+    left: 0;
+    top: 722px;
+  }
+
+  .investments__image {
+    top: -3px;
+    position: absolute;
+    width: 50vw;
+    float: right;
+  }
+
+  .investments__information, .investments__field, .investments__image{
+    height: 880px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .activities__box {
+    display: none;
+  }
+
+  .investments__information, .investments__field, .investments__image{
+    height: 1000px;
+  }
+
+
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .investments__agriculture {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .investments__years {
+    top: 240px;
+    position: absolute;
+  }
+
+  .investments__paragraph {
+    top: 394px;
+  }
+}
+
+

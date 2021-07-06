@@ -1,2 +1,1 @@
-# GermanAgrar
-Figma Website
+# Germanagrar

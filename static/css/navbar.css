@@ -1,0 +1,268 @@
+
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+@font-face {font-family:"Calibre";
+    src:url("../fonts/Calibre.woff") format("woff"),
+        url("../fonts/Calibre.ttf") format("truetype");
+        font-weight:normal;
+        font-style:normal;}
+/* -------- JavaScript classes ----------- */
+.translateTop {
+    -webkit-transition: ease 2s;
+    transition: ease 2s;
+    -webkit-transform: translateY(-200%);
+    -ms-transform: translateY(-200%);
+    transform: translateY(-200%);
+}
+
+.translateBottom {
+    -webkit-transition: ease 2s;
+    transition: ease 2s;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.nav__box--active {
+    display: block;
+    width: 80.62%;
+    height: 60px;
+    position: absolute;
+    margin-top: 356px;
+    background: #006F3C;
+    left: 9.69%;
+    right: 9.69%;
+    z-index: 1;
+} 
+
+.nav__items--active {
+    display: block;
+    height: 316px;
+    width: 77.19%;
+    left: 10.62%;
+    right: 12.19%;
+    line-height: 50px;
+    top: 10px;
+    position: absolute;
+    z-index: 1;
+}  
+
+
+/* ------ Special margins and styling -------- */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header__line {
+    margin-block-start: 0;
+}
+
+/* ---------------Navbar ---------------*/
+
+.header__container, .header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 3.12%;
+    right: 87.66%;
+    top: 2.64vh;
+}
+
+.header__nav {
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.0001);
+    box-shadow: inset 0px -1px 0px #F2F4F3;
+}
+
+.nav__link {
+    height: 11px;
+
+
+    font-family: "Calibre";
+
+
+
+
+    font-family: Calibre;
+
+
+    font-family: Calibre;
+
+    line-height: 11px;
+    font-size: 13px;
+    letter-spacing: 1.24429px;
+    text-transform: uppercase;
+
+    color: #006F3C;
+}
+
+.nav__country {
+    font-family: Calibre;
+    letter-spacing: 1.24429px;
+    line-height: 11px;
+    font-size: 13px;
+
+    color: #000000;
+}
+
+.nav__link, .nav__country {
+    text-decoration: none;
+    margin-right: 2.84%;
+}
+
+.box__offers {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 11px;
+    line-height: 65px;
+    padding: 29px 57px 25px 33px;
+  
+    font-family: Calibre;
+    font-size: 13px;
+    letter-spacing: 1.20714px;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+}
+
+.box__arrow {
+    position: absolute;
+    line-height: 65px;
+    top: 28px;
+    right: 28.27px;
+}
+
+.nav__box, .nav__items {
+    display: none;
+}
+
+
+
+/* ------- Media Queries (except IPAD) -------------- */
+
+
+@media screen and (max-width: 768px) {
+    .header__line, .nav__country, .nav__flag {
+      display: none;
+    }
+
+    .header__nav {
+        height: 416px;
+    }
+
+    .nav__link {
+        left: 10.62%;
+        right: 12.19%;
+        font-family: Calibre;
+        font-size: 23px;
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+    }
+
+    .nav__link:before {
+        content: '\A';
+        white-space: pre-line;
+    }
+
+    .nav__toggle {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .toggle__menu {
+        position: absolute;
+        left: 93.75%;
+        right: -3.75%;
+        top: 2.64vh;
+        transform: rotate(90deg);
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    .header__logo {
+        visibility: hidden;
+    }
+
+    .nav__items {
+       width: 85%;
+       left: 0;
+       display: inline-block;
+       position: absolute;
+       margin: 0 auto;
+    }
+}
+
+@media (min-width: 1020px) and (max-width: 1920px) {
+    .nav__items {
+        height: 11px;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .nav__toggle, .nav__country, .nav__flag {
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .nav__toggle {
+        display: none;
+    }
+    
+    .nav__country {
+        left: 85%;
+        top: 31px;
+        position: absolute;
+        font-family: Calibre;
+        line-height: 13px;
+        font-size: 13px;
+        letter-spacing: 0.04px;
+        color: #BCBFBB;
+    }
+
+    .nav__flag {
+        position: absolute;
+        top: 31px;
+        left: 88%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    .header__nav {
+        text-align: center;
+    }
+
+    .nav__box {
+        display: flex;
+        align-items: flex-end;
+        width: 140px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #006F3C;        
+    }
+}
+
+
+
